@@ -13,7 +13,7 @@ elif delta == 0:
     r1 = (-b + 0)/(a*2)
     print("Xn = C1( " + str(r1) + " )^n C2 n( " + str(r1) + " )^n" )
 elif delta < 0: 
-    print("Xn = C1((" + str(-b) + "+i√" + str(-1*delta) + ")^n)/" + str(2*a) + " + C2((" + str(-b) + "-i√" + str(-1*delta) + ")^n)/" + str(2*a))
+    print("Xn = C1 * (" + str(-b) + " +i√" + str(-1*delta) + " / " + str(2*a) + " )^n " + " + C2 * (" + str(-b) + " -i√" + str(-1*delta) + " / " + str(2*a) + ")^n")
 
 
 
