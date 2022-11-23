@@ -1,2 +1,2 @@
-# MD_lista_Prova2
-faz a descricao valentina <3
+# Matemática discreta
+função de recorrência
